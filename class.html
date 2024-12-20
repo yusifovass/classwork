@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url(./circulos.png);
+            background-color: rgb(15, 15, 54);
+        }
+        #header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-title{
+            display: flex;
+            align-items: center;
+
+        }
+        .ul{
+            display: flex;
+            gap: 20px;
+        }
+        .social-icons img{
+            width: 45px;
+            margin: 0 10px;
+        }
+        button {
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+h1 {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+h3 {
+    color: white;
+    margin-left: 60px;
+}
+.ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.ul {
+    list-style: none;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+     <header id="header">
+        <div class="nav-title">
+        <div >
+            <img src="./logo.png" alt="">
+        </div>
+        <ul class="ul">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#contacts">CONTACTS</a></li>
+        </ul>
+        </div>
+        <div>
+            <button> Log in</button>
+            <button>Register</button>
+        </div>
+
+     </header>
+     <main>
+        <section style="display: flex; align-items: center; justify-content: space-around;">
+        <div>
+            <p>UI/UX</p>
+            <h1>DESIGN</h1>
+            <p>Started with designing on Figma & Adobe XD.</p>
+            <a href="#more" class="see more">See More...</a>
+        </div>
+        <div class="image-section">
+            <img src="./poster.png" alt="">
+        </div>
+        </section>
+     </main>
+     <!--Footer-->
+     <footer class="footer">
+        <h3>Social Media</h3>
+        <div class="social-icons">
+           <a href="https://www.facebook.com" ><img src="./facebook.png" alt=""></a>
+           <a href="https://www.linkedin.com"><img src="./linkedin.png" alt=""></a>
+           <a href="https://www.instagram.com"><img src="./instagram.png" alt=""></a>
+           <a href="https://github.com"><img src="./github.png" alt=""></a>
+           <a href="https://twitter.com"><img src="./twitter.png" alt=""></a>
+        </div>
+     </footer>
+    
+</body>
+</html>
